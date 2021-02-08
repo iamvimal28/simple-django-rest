@@ -1,0 +1,58 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+     "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+     "context": [""]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+     "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+     "context": [""]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure"],
+     "context": [""]
+    },
+    {"tag": "noanswer",
+     "patterns": [],
+     "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+     "context": [""]
+    },
+    {"tag": "options",
+     "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+     "responses": ["I can guide you through our products like Home Products, Clothing, Kitchen appliances, Consumer electronics, Daily essentials etc."],
+     "context": [""]
+    },
+    {"tag": "product_catalog",
+     "patterns": ["How to see Products?", "Get list of Products", "your products please", "I want to see you products and services", "What to buy?", "Buying Options", "Suggest products", "Product suggestions" ],
+     "responses": ["Navigating to available Products and Services"],
+     "context": [""]
+    },
+    {"tag": "home_products",
+     "patterns": ["Open Home products", "Show home products and appliances", "Home items", "Home essentials", "Get home products" ],
+     "responses": ["Navigating to Home products"],
+     "context": [""]
+    },
+    {"tag": "clothing",
+     "patterns": ["Go to clothing section", "Show clothing items", "Open clothing", "Clothing please", "Find clothes" ],
+     "responses": ["Navigating to Clothing section"],
+     "context": ["search_clothing"]
+    },
+    {"tag": "electronics",
+     "patterns": ["Show available electronics", "List of electronics", "electronic items", "Shop electronics"],
+     "responses": ["Loading electronics"],
+     "context": [""]
+    },
+    {"tag": "product_search",
+     "patterns": ["Find an item", "Find product", "List of popular items", "Search product", "Search item" ],
+     "responses": ["Please provide product or item name"],
+     "context": ["search_product_by_name"]
+    },
+    {"tag": "search_mobile_by_name",
+     "patterns": [],
+     "responses": ["Loading mobiles"],
+     "context": [""]
+    }
+]
+}
