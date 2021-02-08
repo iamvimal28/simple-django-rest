@@ -9,14 +9,8 @@ Integrating the chatbot model with Django REST API
 5. Request Body: <br/>
     ```{
         "msg":"Hi"
-    }``` <br/>
-    
+    }```   
 6. Response: <br/>
     ```{
         "reply": "Hello, thanks for asking "
     }```
-    
-  
-
-
-
