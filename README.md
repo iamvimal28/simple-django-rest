@@ -7,10 +7,10 @@ Integrating the chatbot model with Django REST API
 3. Run command ``python .\manage.py runserver localhost:8000`` <br/>
 4. Test url ``POST http://localhost:8000/controller/handlerequest`` <br/>
 5. Request Body: <br/>
-    ```{
-        "msg":"Hi"
-    }```   
+    ```javascript
+    {"msg":"Hi"}
+    ```   
 6. Response: <br/>
-    ```{
-        "reply": "Hello, thanks for asking "
-    }```
+    ```javascript
+    {"reply": "Hello, thanks for asking "}
+    ```
