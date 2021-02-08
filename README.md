@@ -1,2 +1,2 @@
 # simple-django-rest
-Simple Django Web Application
+Integrating the chatbot model with Django REST API
